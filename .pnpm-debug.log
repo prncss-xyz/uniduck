@@ -1,0 +1,67 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "doku",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "type": "module",
+      "keywords": [],
+      "author": "Juliette Lamarche <juliette.lamarche@princesse.xyz> (https://github.com/prncss-xyz/)",
+      "license": "MIT"
+    },
+    "prefix": "/home/prncss/Media/Projects/doku"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/prncss/.pnpm-store/v3",
+    "virtualStoreDir": "/home/prncss/Media/Projects/doku/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/prncss/Media/Projects/doku",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/parse5/6.0.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "parse5",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/parse5/6.0.1",
+    "requester": "/home/prncss/Media/Projects/doku",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/parse5/6.0.1",
+    "requester": "/home/prncss/Media/Projects/doku",
+    "status": "found_in_store"
+  },
+  "7 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "hast-uttil-from-parse5 is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/hast-uttil-from-parse5"
+    },
+    "response": {
+      "size": 0,
+      "timeout": 60000
+    },
+    "pkgName": "hast-uttil-from-parse5",
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/hast-uttil-from-parse5: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmjs.org/hast-uttil-from-parse5: Not Found - 404\n    at RetryOperation._fn (/usr/lib/node_modules/pnpm/dist/pnpm.cjs:62235:16)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}

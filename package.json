@@ -1,0 +1,25 @@
+{
+  "name": "uniduck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Juliette Lamarche <juliette.lamarche@princesse.xyz> (https://github.com/prncss-xyz/)",
+  "license": "MIT",
+  "dependencies": {
+    "blueimp-md5": "^2.19.0",
+    "hast-util-from-parse5": "^7.1.0",
+    "hast-util-select": "^5.0.1",
+    "hast-util-to-html": "^8.0.2",
+    "hast-util-to-text": "^3.1.1",
+    "jest": "^27.3.1",
+    "micromatch": "^4.0.4",
+    "node-fetch": "^3.0.0",
+    "parse5": "^6.0.1",
+    "unist-util-visit": "^4.1.0"
+  }
+}
