@@ -2,7 +2,7 @@
 
 A tiny web scraper and indexer for my personal documentation needs.
 
-Crawls (inward only) starting from preset adresses. Scripts are removed, assets are downloaded and links are modified to connect locally downloaded text. A tab seperated index of targets is then established. I can then access documentation with the following script:
+Crawls (inward only) starting from preset adresses. Scripts are removed, assets are downloaded and links are modified to connect locally downloaded pages. A tab seperated index of targets is then established. I can then access documentation with the following script:
  
 ```bash
 #!/usr/bin/env sh
